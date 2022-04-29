@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Yash Mittal">
+
+        <link rel="icon" href="resource/Meddyy-logo.png" />
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="resource/fontawesome/fontawesome.min.css">
+        <script src="resource/fontawesome/fontawesome.min.js"></script>
+
+        <link rel="stylesheet" href="resource/lightbox/ekko-lightbox.css">
+        <script src="resource/lightbox/ekko-lightbox.js"></script>
+
+        <link rel="stylesheet" href="resource/aos/aos.css">
+        <script src="resource/aos/aos.js"></script>
+
+        <link rel="stylesheet" href="resource/Self.css">
+        <title>Meddyy</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md sticky-top">
+                <a class="navbar-brand y-logo" href="home.html">
+                    <img src="resource/Meddyy-logo.png" height="60px" alt="">
+                    <span>Meddyy</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+                    <i class="fas fa-bars"></i> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="collapsiblenavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="home.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About us</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact us</a></li>
+                    </ul>
+                    <ul class="navbar-nav float-right">
+                        <li><a href="order.html" class="nav-link btn" id="order-btn" target="_blank">Order Now</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container y-header text-center">
+                <h2 class="text-white">Today's offers</h2>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="y-offers">
+                            <iframe src="https://giphy.com/embed/Md3xqkTkB2kpY5pshY" width="75" height="70" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3 class="mb-10">Heavy Discounts</h3>
+                            <div>
+                                <h6>Upto 40% discounts on</h6>
+                                <ul>
+                                    <li>Masks</li>
+                                    <li>Sanitizers</li>
+                                    <li>PPE Kits</li>
+                                    <h6>And many more...</h6>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="y-offers">
+                            <iframe src="https://giphy.com/embed/p6Hh4KdyScFkRNegWy" width="75" height="70" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3 class="mb-10">Cashbacks on select bank payments</h3>
+                            <div>
+                                <h6><u> ICICI Bank </u></h6>
+                                <ul>
+                                    <li>Cashback upto 15% on UPI or Debit card payments</li>
+                                    <li>Cashback of 10% on Gold & Platinum cards</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="y-offers">
+                            <iframe src="https://giphy.com/embed/9D1hQ6gxMtUYZT7JA0" width="75" height="70" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3 class="mb-10">Grab the deal</h3>
+                            <div>
+                                <h6>Deals on big orders</h6>
+                                <ul>
+                                    <li>Flat 200/- off on order above 2500</li>
+                                    <li>Additional Cashback upto <br> 400 on orders above 5000.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container align-items-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-8" data-aos="fade-up" data-aos-duration="1000">
+                        <h2>Our Vision</h2>
+                        <p>We aim to provide people an easy-to-use platform to where they can avail pharmaceutical services. Our team is dedicated to provide quick and reliable support whenever needed by our customers. We wish to have medicines easily available to everyone, expand Pan-India and make sure that no one is needed to skip a dose.</p>
+                        <br>
+                        <p>
+                            <h2>Order in 3 easy steps</h2>
+                            <ol>
+                                <li>Go to the top-right of the page and Click "Order"</li>
+                                <li>Fill out the form to order or Call on the number directly.</li>
+                                <li>Get all order details as a message on phone and confirm your order.</li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div class="col-sm-4" id="y-form" data-aos="zoom-out" data-aos-duration="1000">
+                        <h2>Reach out to us!</h2>
+                        <form method="post" name="google-sheet">
+                            <div class="form-group">
+                                <input type="text" name="Name" class="form-control" placeholder="Your Name" required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="Contact" class="form-control" placeholder="Your Phone" required/>
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="5" cols="8" name="Comment" class="form-control" placeholder="Comments" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <img src="" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="y-guarantee" class="p-3 text-center my-2">
+            <div class="container text-white">
+                <h2>Things we guarantee</h2>
+                <div class="row">
+                    <div class="col-sm py-2" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                        <div>
+                            <iframe src="https://giphy.com/embed/YQ4wPMDxkFzr8mFNwz" width="75" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3>Best Prices</h3>
+                            <p>We offer you the reasonable prices with exciting offers to help up with your medical purchases.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm py-2" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+                        <div>
+                            <iframe src="https://giphy.com/embed/Pj19z6yzCpa1oQEvhe" width="75" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3>Home Delivery</h3>
+                            <p>We give you free home delivery on orders of 200 and above in Delhi-NCR.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm py-2" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div>
+                            <iframe src="https://giphy.com/embed/Vnk8f29XU6GSZK8uGJ" width="75" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <h3>Dedicated Service</h3>
+                            <p>Our team is there 24x7 to insist you in case of any issues faced. Just a message away.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <img src="resource/range.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md my-5 text-left">
+                        <h2>The Range we offer</h2>
+                        <p>Our pharmacy is there to help you with any Allopathic, Ayurvedic or Homeopathic medicines. Medicines from all brands working in India are made easily available to your doorstep.</p>
+                        <p>Any out-of-stock medicine is made available within 6 hours. Also, we import medicines from abroad on special requests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid text-white">
+            <div class="row align-items-start">
+                <div class="pl-2">
+                    <p>
+                        <h5>
+                            Connect with us: 
+                            <a href="" class="text-white"> <i class="fab fa-instagram"></i></a>
+                            <a href="" class="text-white"> <i class="fab fa-facebook"></i></a>
+                        </h5>
+                    </p>
+                    <p>
+                        Designed & Developed by Yash &nbsp; &copy;Rights-Reserved
+                    </p>
+                </div>
+            </div> 
+        </footer>
+        <p id="top-btn"><i class="fas fa-angle-double-up"></i></p>
+    </body>
+    <script>
+        AOS.init();
+
+        $(document).on('click','[data-toggle="lightbox"]', function(event){
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop()){
+                $('#top-btn').show();
+            }
+            else {
+                $('#top-btn').hide();
+            }
+        });
+
+        $("#top-btn").click(function(){
+            $("html,body").animate({scrollTop: 0}, 1000);
+        });
+
+        //script for Google Sheet
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5UqZjpffy-s1m6vI0BBlijQ6KAOTG6y8TOGBB_apzM1XHDlJRXbWlyycTvdp1wsY-/exec';
+        const form = document.forms['google-sheet'];
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+        });
+
+    </script>
+</html>

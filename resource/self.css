@@ -1,0 +1,96 @@
+@font-face{
+    font-family: GiantMouse;
+    src: url(GiantMouse.ttf);
+}
+nav{
+    background:transparent;
+    background-color: rgba(255, 255, 255, 0.959);
+}
+.y-logo{
+    font-family:GiantMouse;
+    font-size: 30px;
+    color: rgb(255, 89, 89);
+    font-weight: normal;
+}
+.nav-link{
+    color: rgb(255, 89, 89);
+    font-weight: bold;
+}
+#order-btn{
+    float: right;
+    margin: 0 10px 0 0;
+    background-color: rgb(255, 89, 89);
+    color: white;
+}
+header{
+    background: linear-gradient(rgba(26, 26, 26, 0.726),rgba(26, 26, 26, 0.719)), url(Meddyy-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.y-header{
+    padding: 100px 20px;
+}
+#y-form{
+    padding: 30px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+#y-form2{
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.y-offers{
+    color: white;
+    height: 350px;
+    padding: 30px 20px 70px 20px;
+    border-radius: 10px;
+    margin: 5px 1px;
+
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(255, 89, 89) 50% );
+    background-size: 200%;
+    background-position: right;
+    transition: 1s;
+}
+.y-offers:hover{
+    background-position: left;
+    color: rgb(255, 89, 89);
+}
+#y-guarantee{
+    margin: auto;
+    background-color: rgb(255, 89, 89);
+}
+#y-team{
+    margin: auto;
+    background-color: rgb(255, 89, 89);
+}
+#y-team img{
+    height: 180px;
+    border-radius: 45%;
+}
+#about-img{
+    height: 200px;
+}
+#gallery img{
+    height: 250px;
+    padding: 1px;
+}
+#order-container{
+    background: linear-gradient(rgba(189, 223, 255, 0.151),rgba(185, 220, 255, 0.151))
+}
+footer{
+    background-color: rgb(9, 103, 192);
+    padding: 5px;
+}
+#top-btn{
+    font-size: 30px;
+    line-height: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: max-content;
+
+    position: fixed;
+    right: 5px;
+    bottom: 0px;
+}

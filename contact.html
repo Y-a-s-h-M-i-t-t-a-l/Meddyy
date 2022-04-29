@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Yash Mittal">
+
+        <link rel="icon" href="resource/Meddyy-logo.png"/>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="resource/fontawesome/fontawesome.min.css">
+        <script src="resource/fontawesome/fontawesome.min.js"></script>
+
+        <link rel="stylesheet" href="resource/lightbox/ekko-lightbox.css">
+        <script src="resource/lightbox/ekko-lightbox.js"></script>
+
+        <link rel="stylesheet" href="resource/aos/aos.css">
+        <script src="resource/aos/aos.js"></script>
+
+        <link rel="stylesheet" href="resource/Self.css">
+        <title>Contact Us - Meddyy</title>
+    </head>
+    <body class="bg-light">
+        <header>
+            <nav class="navbar navbar-expand-md sticky-top">
+                <a class="navbar-brand y-logo" href="home.html">
+                    <img src="resource/Meddyy-logo.png" height="60px" alt="">
+                    <span>Meddyy</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+                    <i class="fas fa-bars"></i> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="collapsiblenavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="home.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About us</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact us</a></li>
+                    </ul>
+                    <ul class="navbar-nav float-right">
+                        <li><a href="order.html" class="nav-link btn" id="order-btn" target="_blank">Order Now</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="container-fluid py-5">
+            <section class="row text-center">
+                <div class="col-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <h5>Office Address: </h5>
+                    <p>Meddyy Pharmacy,<br>
+                       Parsvnath Edens,<br>
+                       Alpha-2,
+                       Greater Noida,<br>
+                       201308
+                    </p>
+                </div>
+                <div class="col-md">
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>Call us: </h5>
+                    <p>98XXXXX814</p>
+                    <p>84XXXXX633</p>
+                </div>
+                <div class="col-md">
+                    <i class="fas fa-envelope"></i>
+                    <h5>Mail us: </h5>
+                    <p>support@Meddyy.com</p>
+                    <p>admin@Meddyy.com</p>
+                </div>
+            </section>
+            <section class="row text-center align-items-center">
+                <div class="col-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.7635971726787!2d77.51306274520043!3d28.477908652879183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea7d218160b3%3A0xc578a6d5727eca0c!2sParsvanath%20Edens%2C%20Alpha-2%2C%20Pocket%20G%2C%20Sector%20Alpha%20II%2C%20Greater%20Noida%2C%20Uttar%20Pradesh%20201310!5e0!3m2!1sen!2sin!4v1645366702605!5m2!1sen!2sin" height="500px" width="400px" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md" id="y-form2">
+                    <h2 class="pb-4">Join our team!</h2>
+                    <form method="post" name="google-sheet" class="text-left">
+                        <div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="Name" class="form-control" placeholder="Your Name" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Role</label>
+                            <div class="col-sm-8">
+                                <select name="Role" class="form-control">
+                                    <option>Accounts Manager</option>
+                                    <option>Pharma Specialist</option>
+                                    <option>HR</option>
+                                    <option>Delivery assistance</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Contact</label>
+                            <div class="col-sm-8">
+                                <input type="text" name="Contact" class="form-control" placeholder="Your Phone Number" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-8">
+                              <input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Linkedin</label>
+                            <div class="col-sm-8">
+                              <input type="text" name="Linkedin" class="form-control" placeholder="Put your Linkedin Link" required>
+                            </div>
+                        </div>
+                        <!--<div class="form-group row">
+                            <label for="" class="col-sm-2 col-form-label">Resume</label>
+                            <div class="col-sm-8">
+                                <input type="file" name="Resume" class="form-control-file">
+                            </div>
+                          </div>-->
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>                
+            </section>
+        </section>
+        <footer class="container-fluid text-white">
+            <div class="row align-items-start">
+                <div class="pl-2">
+                    <p>
+                        <h5>
+                            Connect with us: 
+                            <a href="" class="text-white"> <i class="fab fa-instagram"></i></a>
+                            <a href="" class="text-white"> <i class="fab fa-facebook"></i></a>
+                        </h5>
+                    </p>
+                    <p>
+                        Designed & Developed by Yash &nbsp; &copy;Rights-Reserved
+                    </p>
+                </div>
+            </div> 
+        </footer>
+        <p id="top-btn"><i class="fas fa-angle-double-up"></i></p>
+    </body>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop()){
+                $('#top-btn').show();
+            }
+            else {
+                $('#top-btn').hide();
+            }
+        });
+
+        $("#top-btn").click(function(){
+            $("html,body").animate({scrollTop: 0}, 1000);
+        });
+
+        //script for Google Sheet
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzmMJ4wI_e5P9lcB8CG_Wrus2Isr7gHNfQbmdFnkvWW32WPjY6oyHzosZv0b8-rUg7F_A/exec';
+        const form = document.forms['google-sheet'];
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+        });
+    </script>
+</html>
