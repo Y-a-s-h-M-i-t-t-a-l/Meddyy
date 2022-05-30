@@ -84,6 +84,7 @@ footer{
     padding: 5px;
 }
 #top-btn{
+    border: none;
     font-size: 30px;
     line-height: 10px;
     background-color: transparent;
@@ -91,6 +92,6 @@ footer{
     width: max-content;
 
     position: fixed;
-    right: 5px;
-    bottom: 0px;
+    right: 4px;
+    bottom: 2px;
 }
